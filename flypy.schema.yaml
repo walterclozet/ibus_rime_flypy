@@ -4,7 +4,7 @@
 schema:
   schema_id: flypy
   name: 小鹤音形
-  version: "10.7"
+  version: "10.7.1"
   author:
     - 方案设计：何海峰 <flypy@qq.com>
   description: |
@@ -112,12 +112,12 @@ custom_phraseYH:
   initial_quality: -1 #用户词和系统词重码居后
 
 reverse_lookup:
-  dictionary: flypy
+  dictionary: flypywc
   comment_format:
    # - xform/^/〔/
    # - xform/$/〕/
     - xform/ / /
-
+  wildcard: "`~"
 
 key_binder:
   import_preset: default #方案切换相关

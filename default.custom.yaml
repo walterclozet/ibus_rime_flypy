@@ -1,10 +1,8 @@
-customization:
-  distribution_code_name: Squirrel
-  distribution_version: 2019-06-23
-  rime_version: 1.5.3
 patch:
   schema_list:
     - schema: flypy # 添加小鹤音形
+    - schema: flypywc # 添加小鹤音形反查
+  switcher/hotkeys:
 
 #
 # 可用的按键有 Caps_Lock, Shift_L, Shift_R, Control_L, control_R
@@ -36,4 +34,3 @@ patch:
     - when: has_menu
       accept: bracketright
       send: Page_Down
-

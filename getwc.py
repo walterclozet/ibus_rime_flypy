@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import time
 
 ch_list = ['']
 
@@ -51,13 +52,13 @@ with open('wc.txt', encoding='utf-8') as f:
         string1, string2 = line.strip().split('\t')
         rep(string1, string2)
         
-for string in ch_list:
-    print(string)
+#for string in ch_list:
+    #print(string)
     
    
 dict_head = '''---
 name: flypywc
-version: "1.02"
+version: "{}"
 sort: original
 wildcard: "`~"
 columns:
@@ -77,6 +78,8 @@ encoder:
       formula: "AaBaCaZa"
 ...
 '''
+
+dict_head = dict_head.format(time.time())
     
 with open('flypywc.dict.yaml', "w", encoding='utf-8') as f:
     f.write(dict_head)

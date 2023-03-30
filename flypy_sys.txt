@@ -65,7 +65,6 @@
 🤔	sk
 
 # 二重简码
-按	a
 打	d
 管	g
 化	h
@@ -75,10 +74,8 @@
 之	v
 位	w
 宝	bc
-笨	bf
 甭	bg
 逼	bi
-逗	dz
 疯	fg
 复	fu
 搞	gc
@@ -674,10 +671,46 @@ $	ofhb	99
 ǚ	ofpy	81
 ǜ	ofpy	80
 ü	ofpy	79
+ǖ	ofpy	83
+ǘ	ofpy	82
+ǚ	ofpy	81
+ǜ	ofpy	80
+ü	ofpy	79
 ū	ofpy	78
 ú	ofpy	77
 ǔ	ofpy	76
 ù	ofpy	75
+ā	ofpya	100
+á	ofpya	99
+ǎ	ofpya	98
+à	ofpya	97
+ō	ofpyo	96
+ó	ofpyo	95
+ǒ	ofpyo	94
+ò	ofpyo	93
+ē	ofpye	92
+é	ofpye	91
+ě	ofpye	90
+è	ofpye	89
+ê	ofpye	88
+ī	ofpyi	87
+í	ofpyi	86
+ǐ	ofpyi	85
+ì	ofpyi	84
+ǖ	ofpyu	63
+ǘ	ofpyu	62
+ǚ	ofpyu	61
+ǜ	ofpyu	60
+ü	ofpyu	59
+ǖ	ofpyv	83
+ǘ	ofpyv	82
+ǚ	ofpyv	81
+ǜ	ofpyv	80
+ü	ofpyv	79
+ū	ofpyu	78
+ú	ofpyu	77
+ǔ	ofpyu	76
+ù	ofpyu	75
 成组罗大d	ofl	100
 Ⅰ	ofld	100
 Ⅱ	ofld	99

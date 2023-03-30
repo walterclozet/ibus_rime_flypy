@@ -24,4 +24,5 @@
 # no comment
 小时	xu
 类似	ls
-
+氷	bkd
+枚举	mj

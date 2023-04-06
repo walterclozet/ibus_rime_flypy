@@ -45,11 +45,12 @@ engine:
   translators:
     - punct_translator
     - table_translator
-    - lua_translator@date_translator
-    - lua_translator@time_translator
+      #    - lua_translator@date_translator
+      #    - lua_translator@time_translator
     - table_translator@custom_phraseVD
     - table_translator@custom_phraseXT
     - table_translator@custom_phraseYH
+    - table_translator@ofpy
     - reverse_lookup_translator
     - history_translator@history
   filters:
@@ -111,6 +112,14 @@ custom_phraseYH:
   enable_completion: false
   initial_quality: -1 #用户词和系统词重码居后
 
+ofpy:
+  dictionary: ""
+  user_dict: flypy_sys
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #用户词和系统词重码居后
+
 reverse_lookup:
   dictionary: flypywc
   comment_format:
@@ -155,6 +164,7 @@ recognizer:
     uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "[a-z`]*`+[a-z`]*"
     punct: ""
+    ofpy: "^ofpy[a-z]"
 
 menu:
   page_size: 5 #候选项数

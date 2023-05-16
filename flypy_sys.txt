@@ -293,6 +293,11 @@
 ⒚	ofdu	82
 ⒛	ofdu	81
 成组单位w	ofd	99
+°	ofdw	105
+Ω	ofdw	104
+℥	ofdw	103
+²	ofdw	102
+³	ofdw	101
 ㎎	ofdw	100
 ㎏	ofdw	99
 ㎜	ofdw	98
@@ -307,6 +312,10 @@ nm	ofdw	94
 ㏑	ofdw	89
 ㏒	ofdw	88
 ㏕	ofdw	87
+㏗	ofdw	84
+㎖	ofdw
+㎗	ofdw
+㎘	ofdw
 成组俄大d	ofe	100
 А	ofed	100
 Б	ofed	99

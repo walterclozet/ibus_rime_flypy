@@ -3,7 +3,7 @@
 
 ---
 name: flypy
-version: "0.1"
+version: "0.2"
 sort: original
 
 encoder:
@@ -6890,7 +6890,7 @@ AA制	aavi
 鼎足	dkzu
 顶嘴	dkzv
 到了	dl
-哆啦A梦 dlam
+哆啦A梦	dlam
 得了吧	dlb
 得了吧	dlba
 的黎波里	dlbl
@@ -7324,7 +7324,7 @@ AA制	aavi
 多亏	dokv
 哆	dokx
 多了	dol
-哆啦    dola
+哆啦	dola
 多了	dole
 堕落	dolo
 多虑	dolv

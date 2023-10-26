@@ -977,6 +977,7 @@ $	ofhb	99
 ₙ	ofxb	85
 ₓ	ofxb	84
 ～	op
+π	opi
 ‰	oq
 ……	os
 ＆	ota	100

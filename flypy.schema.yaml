@@ -48,6 +48,7 @@ engine:
       #    - lua_translator@date_translator
       #    - lua_translator@time_translator
     - table_translator@custom_phraseVD
+    - table_translator@custom_phraseJM
     - table_translator@custom_phraseXT
     - table_translator@custom_phraseYH
     - table_translator@ofpy
@@ -88,6 +89,14 @@ simplification:
   option_name: simplification
   tips: all #简繁对照
 
+custom_phraseJM:
+  dictionary: ""
+  user_dict: flypy_jm
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 0 #用户词和系统词重码 置顶
+  
 custom_phraseVD:
   dictionary: ""
   user_dict: flypy_top

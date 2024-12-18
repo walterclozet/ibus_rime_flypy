@@ -17,7 +17,11 @@
 # 更新
 cd ~/.config/ibus/rime
 git pull 
-假名快捷键
+# Windows 手动安装
+安装小狼毫后, 打开用户文件夹, 下载最新代码解压后将所有文件复制到此重新部署即可.
+更新时重新下载压缩包解压覆盖已有文件, 重新部署.
+也可安装git后执行git clone, git pull, 与linux方法相同.
+# 假名快捷键
 あ	cha
 
 い	chi
